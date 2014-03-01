@@ -7,7 +7,7 @@
 		'main'		=> 'Principal',
 		'config'	=> 'Options',
 		//'users'		=> 'Utilisateurs',
-		'entry'		=> 'Entr&eacute;es',
+		'entry'		=> 'Billets',
 		'static'	=> 'Pages statiques',
 		'uploader'	=> 'Uploader',
 		'widgets'	=> 'Widgets',

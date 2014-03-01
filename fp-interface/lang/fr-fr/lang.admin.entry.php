@@ -4,8 +4,8 @@
 
 	$lang['admin']['entry']['submenu'] = 
 	array (
-		'list'		=> 'G&eacute;rer les articles',
-		'write'		=> 'Ecrire un article',
+		'list'		=> 'G&eacute;rer les billets',
+		'write'		=> 'Ecrire un billet',
 		'cats'		=> 'G&eacute;rer les cat&eacute;gories'
 	);
 
@@ -14,8 +14,8 @@
 	
 	$lang['admin']['entry']['list'] = 
 	array(
-		'head'		=> 'G&eacute;rer les articles',
-		'descr'		=> 'S&eacute;lectionner un article &agrave; &eacute;diter ou<a href="admin.php?p=entry&amp;action=write"> ajouter un nouvel article</a>'.
+		'head'		=> 'G&eacute;rer les billets',
+		'descr'		=> 'S&eacute;lectionner un billet &agrave; &eacute;diter ou<a href="admin.php?p=entry&amp;action=write"> ajouter un nouveau billet</a>'.
 					'<br /><a href="admin.php?p=entry&amp;action=cats">Editer les cat&eacute;gories</a>',
 		'filter'	=> 'Filtrer: ',
 		'nofilter'	=> 'Tout Afficher',
@@ -34,8 +34,8 @@
 	/* écrire action */
 	$lang['admin']['entry']['write'] = 
 	array(
-		'head'		=> 'Ecrire un article',
-		'descr'		=> 'Editer les formulaire d\'&eacute;criture de l\'article',
+		'head'		=> 'Ecrire un billet',
+		'descr'		=> 'Editer les formulaire d\'&eacute;criture du billet',
 		'uploader'	=> 'Uploader',
 		'fieldset1'	=> 'Editer',
 		'subject'	=> 'Sujet (*):',
@@ -46,22 +46,22 @@
 		'savecontinue'	=> 'enregistrer et continuer',
 		'archive'	=> 'Archiver',
 		'nocategories'	=> 'Pas de cat&eacute;gories d&eacute;finies. <a href="admin.php?p=entry&amp;action=cats"> Cr&eacute;er '. 
-					'categories</a>  &agrave; partir de l\'article principal. '.
+					'cat&eacute;gories</a>  &agrave; partir de du menu des cat&eacute;gories. '.
 					'<a href="#save">Enregistrer</a> votre premi&egrave;re entr&eacute;e.',
 		'saveopts'	=> 'Enregistrer options',
-		'success'	=> 'Votre article a &eacute;t&eacute; publi&eacute;',
+		'success'	=> 'Votre billet a &eacute;t&eacute; publi&eacute;',
 		'otheropts'	=> 'Autres options',
-		'commmsg'	=> 'G&eacute;rer les commentaires de cet article',
-		'delmsg'	=> 'Effacer cet article',
+		'commmsg'	=> 'G&eacute;rer les commentaires de ce billet',
+		'delmsg'	=> 'Effacer ce billet',
 		//'back'		=> 'Back discarding changes',
 	);
 	
 
 	$lang['admin']['entry']['list']['msgs'] = array(
-		1	=> 'Article a &eacute;t&eacute; enregistr&eacute; avec succ&egrave;s',
-		-1	=> 'Une erreur est apparue pendant l\'enregistrement de l\'article',
-		2	=> 'Article effac&eacute;',
-		-2	=>	 'Une erreur est apparue pendant la suppression de l\'article',
+		1	=> 'Le billet a &eacute;t&eacute; enregistr&eacute; avec succ&egrave;s',
+		-1	=> 'Une erreur est survenue pendant l\'enregistrement du billet',
+		2	=> 'Billet effac&eacute;',
+		-2	=>	 'Une erreur est survenue pendant la suppression du billet',
 	);
 
 	
@@ -71,12 +71,12 @@
 	);
 	
 	$lang['admin']['entry']['write']['msgs'] = array(
-		1	=> 'Article a &eacute;t&eacute; enregistr&eacute; avec succ&egrave;s',
-		-1	=> 'Une erreur est apparue: votre article n\'a pas &eacute;t&eacute; enregistr&eacute;',
-		-2	=> 'Une erreur est apparue: votre article n\'a pas &eacute;t&eacute; enregistr&eacute;; index peut &ecirc;tre endommag&eacute;',
-		-3	=> 'Une erreur est apparue: votre article n\'a pas &eacute;t&eacute; enregistr&eacute;',
-		-4	=> 'Une erreur est apparue: votre article n\'a pas &eacute;t&eacute; enregistr&eacute;; index peut &ecirc;tre endommag&eacute;',
-		'draft'=> 'Vous &eacute;ditez actuellement <strong>draft</strong> article'
+		1	=> 'Le billet a &eacute;t&eacute; enregistr&eacute; avec succ&egrave;s',
+		-1	=> 'Une erreur est survenue: votre billet n\'a pas &eacute;t&eacute; enregistr&eacute;',
+		-2	=> 'Une erreur est survenue: votre billet n\'a pas &eacute;t&eacute; enregistr&eacute;; index peut &ecirc;tre endommag&eacute;',
+		-3	=> 'Une erreur est survenue: votre billet n\'a pas &eacute;t&eacute; enregistr&eacute;',
+		-4	=> 'Une erreur est survenue: votre billet n\'a pas &eacute;t&eacute; enregistr&eacute;; index peut &ecirc;tre endommag&eacute;',
+		'draft'=> 'Vous &eacute;ditez actuellement un <strong>brouillon</strong>'
 	);
 
 	
@@ -84,7 +84,7 @@
 	
 	$lang['admin']['entry']['commentlist'] = 
 	array(
-		'head'		=> "Commentaires de l\'article ", 
+		'head'		=> "Commentaires du billet ", 
 		'descr'		=> 'S&eacute;lectionner un commentaire &agrave; effacer',
 		'sel'		=> 'Sel',
 		'content'	=> 'Contenu',
@@ -96,7 +96,7 @@
 		'act_edit'	=> 'Editer',
 		'act_del'	=> 'Effacer',
 		'act_del_confirm' => 'Confirmez-vous la suppression du commentaire?',
-		'nocomments'	=> 'pas de commentaires pour cet article.',
+		'nocomments'	=> 'pas de commentaires pour ce billet.',
 		
 	
 	);
@@ -104,13 +104,13 @@
 	$lang['admin']['entry']['commentlist']['msgs'] =
 	array(
 		1	=> 'Commentaire effac&eacute; avec succ&egrave;s',
-		-1	=> 'Une erreur est apparue durant la suppression du commentaire',
+		-1	=> 'Une erreur est survenue pendant la suppression du commentaire',
 		
 	);
 
 	$lang['admin']['entry']['commedit'] = 
 	array(
-		'head'		=> "Editer commentaire de l\'article", 
+		'head'		=> "Editer commentaire du billet", 
 		'content'	=> 'Contenu',
 		'date'		=> 'Date',
 		'author'	=> 'Auteur',
@@ -126,21 +126,21 @@
 	$lang['admin']['entry']['commedit']['msgs'] =
 	array(
 		1	=> 'Commentaire a &eacute;t&eacute; modifi&eacute;',
-		-1	=> 'Une erreur est apparue durant l\'&eacute;dition du commentaire',
+		-1	=> 'Une erreur est survenue pendant l\'&eacute;dition du commentaire',
 	);
 	
 	/* delete action */
 	
 	$lang['admin']['entry']['delete'] = 
 	array(
-		'head'		=> 'Supprimer article', 
-		'descr'		=> 'Vous allez supprimer l\'article suivant:',
+		'head'		=> 'Supprimer ce billet', 
+		'descr'		=> 'Vous allez supprimer le billet suivant:',
 		'preview'	=> 'Aper&ccedil;u',
 		'confirm'	=> 'Confirmez-vous l\'action?',
 		'fset'		=> 'Effacer',
-		'ok'		=> 'Oui, effacer cet article',
+		'ok'		=> 'Oui, effacer ce billet',
 		'cancel'	=> 'Non, retour au panel',
-		'err'		=> 'L\'entr&eacute;e sp&eacute;cifi&eacute;e n\'existe pas',
+		'err'		=> 'Le billet sp&eacute;cifi&eacute;e n\'existe pas',
 	
 	);
 	
@@ -170,9 +170,9 @@ Technologie :6
 	$lang['admin']['entry']['cats']['msgs'] = array(
 		
 		1	=> 'Cat&eacute;gories enregistr&eacute;es',
-		-1	=> 'Une erreur est apparue durant l\'enregistrement des cat&eacute;gories',
+		-1	=> 'Une erreur est survenue pendant l\'enregistrement des cat&eacute;gories',
 		2	=> 'Cat&eacute;gories effac&eacute;es',
-		-2	=> 'Une erreur est apparue durant la suppression des cat&eacute;gories',
+		-2	=> 'Une erreur est survenue pendant la suppression des cat&eacute;gories',
 		-3 	=> 'Le num&eacute;ro de cat&eacute;gorie doit &ecirc;tre positif (0 pas permis)'
 
 	);

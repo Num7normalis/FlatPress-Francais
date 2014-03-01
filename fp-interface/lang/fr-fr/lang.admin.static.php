@@ -12,7 +12,7 @@
 	$lang['admin']['static']['list'] = array(
 	
 		'head'		=> 'Pages Statiques',
-		'descr'		=> 'S&eacute;lectionnez une page &agrave; &eacute;diter ou <a href="admin.php?p=static&amp;action=write">ajouter une nouvelle</a>.',
+		'descr'		=> 'S&eacute;lectionnez une page &agrave; &eacute;diter ou <a href="admin.php?p=static&amp;action=write">ajoutez-en une nouvelle</a>.',
 	
 		'sel'		=> 'Sel', // checkbox
 		'date'		=> 'Date',

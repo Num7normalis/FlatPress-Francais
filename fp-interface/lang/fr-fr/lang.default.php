@@ -8,14 +8,14 @@
 		
 		'nextpage'		=> 'Page suivante;',
 		'prevpage'		=> 'Page pr&eacute;c&eacute;dente',
-		'entry'      	=> 'Article',
+		'entry'      	=> 'Billet',
 		'static'     	=> 'Page statique',
 		'comment'    	=> 'Commentaire',
 		'preview'    	=> 'Editer/aper&ccedil;u',
 		
 		'filed_under'	=> 'Class&eacute; sous ',	
 		
-		'add_entry'  	=> 'Ajouter article',
+		'add_entry'  	=> 'Ajouter billet',
 		'add_comment'  	=> 'Ajouter commentaire',
 		'add_static'  	=> 'Ajouter page statique',
 		
@@ -71,15 +71,15 @@
 	$lang['entry']['flags'] = array();
 	
 	$lang['entry']['flags']['long'] = array(
-		'draft' => '<strong>Article en projet</strong>: cach&eacute;, en attente de publication',
+		'draft' => '<strong>Billet brouillon</strong>: cach&eacute;, en attente de publication',
 		//'static' => '<strong>Static entry</strong>: normally hidden, to reach the entry put ?page=title-of-the-entry in url (experimental)',
-		'commslock' => '<strong>Commentaires ferm&eacute;s</strong>: commentaires d&eacute;sactiv&eacute;s pour cet article'
+		'commslock' => '<strong>Commentaires d&eacute;sactiv&eacute;s</strong>: commentaires d&eacute;sactiv&eacute;s pour ce billet'
 	);
 	
 	$lang['entry']['flags']['short'] = array(
-		'draft' => 'Projet',
+		'draft' => 'Brouillon',
 		//'static' => 'Static',
-		'commslock' => 'Commentaires ferm&eacute;s'
+		'commslock' => 'Commentaires d&eacute;sactiv&eacute;s'
 	);
 
 	$lang['404error'] = array(
@@ -105,7 +105,7 @@
 		'redirect'	=> 'Vous serez redirig&eacute; dans 5 secondes.',
 		'opt1'		=> 'Retour &agrave; l\'index',
 		'opt2'		=> 'Aller au Panneau de gestion',
-		'opt3'		=> 'Ajouter un nouvel article'
+		'opt3'		=> 'Ajouter un nouvel billet'
 	);
 	
 	$lang['login']['error'] = array(
@@ -129,8 +129,8 @@
 		'submit'	=> 'Ajouter',
 		'reset'		=> 'R&eacute;initialiser',
 		'success'	=> 'Votre commentaire a &eacute;t&eacute; ajout&eacute; avec succ&egrave;s',
-		'nocomments'	=> 'Pas de commentaires pour cet article',
-		'commslock'	=> 'Les commentaires ont &eacute;t&eacute; d&eacute;sactiv&eacute;s pour cet article',
+		'nocomments'	=> 'Pas de commentaires pour ce billet',
+		'commslock'	=> 'Les commentaires ont &eacute;t&eacute; d&eacute;sactiv&eacute;s pour ce billet',
 	);
 	
 	$lang['comments']['error'] = array(

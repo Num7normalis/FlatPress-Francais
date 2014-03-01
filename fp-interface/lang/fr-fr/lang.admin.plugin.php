@@ -17,7 +17,7 @@
 						'Plugin</a> est un composant qui &eacute;tend les possibilit&eacute;s de FlatPress.</p>'.
 						'<p>Vous pouvez installer les plugins en les transf&eacute;rant dans le dossier <code>fp-plugins/</code> '.
 						'de votre ftp.</p>'.
-						'<p>Ce panel vous permet d\'activer ou de d&eacute;sactiver les plugins',
+						'<p>Ce menu vous permet d\'activer ou de d&eacute;sactiver les plugins',
 		'name'		=> 'Nom',
 		'description'=>'Description',
 		'author'	=> 'Auteur',
@@ -27,13 +27,13 @@
 	
 	$lang['admin']['plugin']['default']['msgs'] = array(
 		1	=> 'Configuration enregistr&eacute;e',
-		-1	=> 'Une erreur est apparue durant l\'enregistrement. Il peut y avoir plusieurs raisons: erreurs de synthaxes.',
+		-1	=> 'Une erreur est survenue pendant l\'enregistrement. Il peut y avoir plusieurs raisons: erreurs de synthaxes.',
 	);
 	
 	/* system errors */
 	
 	$lang['admin']['plugin']['errors'] = array(
-		'head'		=> 'Des erreurs ont &eacute;t&eacute; d&eacute;tect&eacute;es pendant le chargement des plugins:',
+		'head'		=> 'Des erreurs sont survenues pendant le chargement des plugins:',
 		'notfound'	=> 'Plugin non trouv&eacute;.',
 		'generic'	=> 'Erreur num&eacute;ro %d',
 	);

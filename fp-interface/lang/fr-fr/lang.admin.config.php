@@ -4,7 +4,7 @@
 	$lang['admin']['config']['default'] = 
 	array(
 		'head'		=> 'Options',
-		'descr'		=> 'Personnaliser et configurer votre FlatPress
+		'descr'		=> 'Personnaliser et configurer FlatPress
 					installation.',
 		'submit'		=> 'Enregistrer',
 		

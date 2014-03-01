@@ -16,10 +16,10 @@
 						<strong>&eacute;tendent</strong> les possibilit&eacute;s et les fonctions.</p>
 
 						<p>Les Widgets peuvent &ecirc;tre d&eacute;plac&eacute;s vers des zones sp&eacute;ciales de votre th&egrave;me appel&eacute;es 
-						<strong>WidgetSets</strong>. Le nombre et le nom de la WidgetSets peuvent varier avec le
+						<strong>WidgetSets</strong>. Le nombre et le nom des WidgetSets peuvent varier avec le
 th&egrave;me que vous choisissez.</p>
 
-						<p>FlatPress est fourni avec plusieurs widgets: il y a des widgets pour aider &agrave; la connexion, &agrave;
+						<p>FlatPress est fourni avec plusieurs widgets: il y a des widgets pour aider &agrave; la connexion, pour
 afficher une bo&icirc;te de recherche, etc</p>
 						
 						<p>Chaque widget est d&eacute;fini par un <a class="hint" '.
@@ -29,7 +29,7 @@ afficher une bo&icirc;te de recherche, etc</p>
 		'trashcan'	=> 'D&eacute;placer ici pour supprimer',
 		
 		'themewdgs' => 'Widgetsets pour ce th&egrave;me',
-		'themewdgsdescr' => 'Le th&egrave;me que vous avez s&eacute;lectionn&eacute; dispose des widgetsets suivantes',
+		'themewdgsdescr' => 'Le th&egrave;me que vous avez s&eacute;lectionn&eacute; dispose des widgetsets suivants',
 		'oldwdgs'	=> 'Autres widgetsets',
 		'oldwdgsdescr' =>'Les widgetsets suivantes semblent ne pas appartenir &agrave; l\'un des '.
 						'widgetsets list&eacute;s ici. Ceux-ci proviennent peut-&ecirc;tre d\'un autre th&egrave;me.',
@@ -73,7 +73,7 @@ afficher une bo&icirc;te de recherche, etc</p>
 	
 	$lang['admin']['widgets']['raw']['msgs'] = array(
 		1	=> 'Modifications enregistr&eacute;es',
-		-1	=> 'Une erreur est apparue pendant l\'enregistrement. V&eacute;rifiez les param&egrave;tres.',
+		-1	=> 'Une erreur est survenue pendant l\'enregistrement. V&eacute;rifiez les param&egrave;tres.',
 	);
 
 		
