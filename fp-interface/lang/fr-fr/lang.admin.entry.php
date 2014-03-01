@@ -44,7 +44,7 @@
 		'submit'	=> 'Publier',
 		'preview'	=> 'Aper&ccedil;u',
 		'savecontinue'	=> 'enregistrer et continuer',
-		'archive'	=> 'Archiver',
+		'categories'	=> 'Cat&eacute;gories',
 		'nocategories'	=> 'Pas de cat&eacute;gories d&eacute;finies. <a href="admin.php?p=entry&amp;action=cats"> Cr&eacute;er '. 
 					'cat&eacute;gories</a>  &agrave; partir de du menu des cat&eacute;gories. '.
 					'<a href="#save">Enregistrer</a> votre premi&egrave;re entr&eacute;e.',
