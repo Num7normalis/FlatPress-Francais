@@ -16,10 +16,10 @@ Version de la traduction: 0.1 Beta2 pour FlatPress versions 0.1010 - 0.1010.1 - 
 
 Mise a jour: Si vous disposez d'une version précédente, écrasez simplement les anciens fichiers pour mettre à jour la traduction.
 
-Version Beta de la traduction, certaines traductions sont encore � finaliser et � am�liorer.
+Version Beta de la traduction, certaines traductions sont encore à finaliser et à améliorer.
 
 Aide:
-Les fichiers sont à placer dans fp-interface/lang et dans fp-plugins. Pour les plugins, �crasez simplement les anciens fichiers. La structure des fichiers a été respectée!
+Les fichiers sont à placer dans fp-interface/lang et dans fp-plugins. Pour les plugins, écrasez simplement les anciens fichiers. La structure des fichiers a été respectée!
 
 ###Historique:
 
