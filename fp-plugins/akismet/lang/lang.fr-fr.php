@@ -1,23 +1,23 @@
 <?php
 	$lang['plugin']['akismet']['errors'] = array (
-		-1	=> 'API key not set. Open the plugin to set your API key. Register on <a href="http://wordpress.com">Wordpress.com</a> to get one'
+		-1	=> 'Clef API non d&eacute;finie. Configurez le plugin afin de configurer la clef API. Enregistrez vous sur <a href="http://wordpress.com" target="_blank">Wordpress.com</a> pour en obtenir une. '
 	);
 	
-	$lang['admin']['plugin']['submenu']['akismet'] = 'Akismet Config';
+	$lang['admin']['plugin']['submenu']['akismet'] = 'Configuration Akismet';
 	
 	$lang['admin']['plugin']['akismet'] = array(
-		'head'		=> 'Akismet Configuration',
-		'description'=>'For many people, <a href="http://akismet.com/">Akismet</a> will greatly reduce '
-					 .'or even completely eliminate the comment and trackback spam you get on your site. '
-					 .'If you don\'t have a WordPress.com account yet, you can get one at '.
-					 '<a href="http://wordpress.com/api-keys/">WordPress.com</a>.',
-		'apikey'	=> 'WordPress.com API Key',
-		'whatis'	=> '(<a href="http://faq.wordpress.com/2005/10/19/api-key/">What is this?</a>)',
-		'submit'	=> 'Save API key'
+		'head'		=> 'Configuration Akismet',
+		'description'=>'La plupart du temps, <a href="http://akismet.com/" target="_blank">Akismet</a> va grandement '
+					 .'ou compl&egrave;tement &eacute;liminer les commentaires ind&eacute;sirables sur votre blog. '
+					 .'Si vous n\'avez pas de compte sur WordPress.com, vous pouvez vous en cr&eacute;er un sur '.
+					 '<a href="http://wordpress.com/api-keys/" target="_blank">WordPress.com</a>.',
+		'apikey'	=> 'Clef API WordPress.com',
+		'whatis'	=> '(<a href="http://faq.wordpress.com/2005/10/19/api-key/" target="_blank">Qu\'est-ce que c\'est?</a>)',
+		'submit'	=> 'Sauvegarder'
 	);
 	$lang['admin']['plugin']['akismet']['msgs'] = array(
-		1		=> 'API key saved',
-		-1		=> 'API key is not valid'
+		1		=> 'Clef API sauvegard&eacute;e',
+		-1		=> 'Clef API non valide'
 	);
 	
 ?>
