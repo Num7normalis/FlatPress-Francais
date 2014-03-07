@@ -1,5 +1,4 @@
-﻿<!-- Traduction française par Flatpress communauté francophone - merci de laisser cette mention -->
-<?php
+﻿<?php
 
 	$lang['admin']['plugin']['submenu'] = array (
 		'default'		=> 'G&eacute;rer Plugins'
