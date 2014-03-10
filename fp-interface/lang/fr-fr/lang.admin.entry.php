@@ -4,7 +4,7 @@
 	$lang['admin']['entry']['submenu'] = 
 	array (
 		'list'		=> 'G&eacute;rer les billets',
-		'write'		=> 'Ecrire un billet',
+		'write'		=> '&Eacute;crire un billet',
 		'cats'		=> 'G&eacute;rer les cat&eacute;gories'
 	);
 
@@ -15,7 +15,7 @@
 	array(
 		'head'		=> 'G&eacute;rer les billets',
 		'descr'		=> 'S&eacute;lectionner un billet &agrave; &eacute;diter ou<a href="admin.php?p=entry&amp;action=write"> ajouter un nouveau billet</a>'.
-					'<br /><a href="admin.php?p=entry&amp;action=cats">Editer les cat&eacute;gories</a>',
+					'<br /><a href="admin.php?p=entry&amp;action=cats">&Eacute;diter les cat&eacute;gories</a>',
 		'filter'	=> 'Filtrer: ',
 		'nofilter'	=> 'Tout Afficher',
 		'filterbtn'	=> 'Appliquer filtre',
@@ -27,16 +27,16 @@
 		'action'	=> 'Action',
 		'act_del'	=> 'Effacer',
 		'act_view'	=> 'Voir',
-		'act_edit'	=> 'Editer'
+		'act_edit'	=> '&Eacute;diter'
 	);
 	
 	/* écrire action */
 	$lang['admin']['entry']['write'] = 
 	array(
-		'head'		=> 'Ecrire un billet',
-		'descr'		=> 'Editer les formulaire d\'&eacute;criture du billet',
+		'head'		=> '&Eacute;crire un billet',
+		'descr'		=> '&Eacute;diter les formulaire d\'&eacute;criture du billet',
 		'uploader'	=> 'Uploader',
-		'fieldset1'	=> 'Editer',
+		'fieldset1'	=> '&Eacute;diter',
 		'subject'	=> 'Sujet (*):',
 		'content'	=> 'Contenu (*):',
 		'fieldset2'	=> 'Soumettre',
@@ -92,7 +92,7 @@
 		'email'		=> 'Email',
 		'ip'		=> 'IP',
 		'actions'	=> 'Actions',
-		'act_edit'	=> 'Editer',
+		'act_edit'	=> '&Eacute;diter',
 		'act_del'	=> 'Effacer',
 		'act_del_confirm' => 'Confirmez-vous la suppression du commentaire?',
 		'nocomments'	=> 'pas de commentaires pour ce billet.',
@@ -109,7 +109,7 @@
 
 	$lang['admin']['entry']['commedit'] = 
 	array(
-		'head'		=> "Editer commentaire du billet", 
+		'head'		=> "&Eacute;diter commentaire du billet", 
 		'content'	=> 'Contenu',
 		'date'		=> 'Date',
 		'author'	=> 'Auteur',
@@ -147,7 +147,7 @@
 	
 	$lang['admin']['entry']['cats'] =
 	array(
-		'head'		=> 'Editer cat&eacute;gories',
+		'head'		=> '&Eacute;diter cat&eacute;gories',
 		'descr'		=> '<p>Utilisez le formulaire pour ajouter et &eacute;diter vos cat&eacute;gories. </p><p>Chaque item doit &ecirc;tre au format "nom cat&eacute;gorie: <em>num&eacute;ro de cat&eacute;gorie</em>". Placez des tirets devant les articles pour cr&eacute;er des hi&eacute;rarchies.</p>
 		
 	<p>Exemple:</p>
@@ -161,7 +161,7 @@ Technologie :6
 	</pre>',
 		'clear'		=> 'Effacer toutes les donn&eacute;es des cat&eacute;gories',
 	
-		'fset1'		=> 'Editeur',
+		'fset1'		=> '&Eacute;diteur',
 		'fset2'		=> 'Appliquer modifications',
 		'submit'	=> 'Enregistrer'
 	);

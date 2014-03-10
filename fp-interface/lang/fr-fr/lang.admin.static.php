@@ -2,7 +2,7 @@
 
 	$lang['admin']['static']['submenu'] = array(
 		'list'		=> 'G&eacute;rer pages statiques',
-		'write'		=> 'Ecrire'
+		'write'		=> '&Eacute;crire'
 	);
 
 	
@@ -22,7 +22,7 @@
 		'action'	=> 'Action',
 		'act_view'	=> 'Voir',
 		'act_del'	=> 'Effacer',
-		'act_edit'	=> 'Editer'		
+		'act_edit'	=> '&Eacute;diter'		
 	);
 	
 	$lang['admin']['static']['list']['msgs'] = array(
