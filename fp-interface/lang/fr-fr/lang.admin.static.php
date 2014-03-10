@@ -39,7 +39,7 @@
 	array(
 		'head'		=> 'Publier une page statique',
 		'descr'		=> 'Editez le formulaire pour publier la page',
-		'fieldset1'	=> 'Editer',
+		'fieldset1'	=> '&Eacute;diter',
 		'subject'	=> 'Sujet (*):',
 		'content'	=> 'Contenu (*):',
 		'fieldset2'	=> 'Soumettre',

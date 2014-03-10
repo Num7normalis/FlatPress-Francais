@@ -10,7 +10,7 @@
 		'entry'      	=> 'Billet',
 		'static'     	=> 'Page statique',
 		'comment'    	=> 'Commentaire',
-		'preview'    	=> 'Editer/aper&ccedil;u',
+		'preview'    	=> '&Eacute;diter/aper&ccedil;u',
 		
 		'filed_under'	=> 'Class&eacute; sous ',	
 		
@@ -18,7 +18,7 @@
 		'add_comment'  	=> 'Ajouter commentaire',
 		'add_static'  	=> 'Ajouter page statique',
 		
-		'btn_edit'     	=> 'Editer',
+		'btn_edit'     	=> '&Eacute;diter',
 		'btn_delete'   	=> 'Supprimer',
 		
 		'nocomments'	=> 'Ajouter un commentaire',

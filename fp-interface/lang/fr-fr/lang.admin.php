@@ -11,7 +11,7 @@
 		'uploader'	=> 'Uploader',
 		'widgets'	=> 'Widgets',
 		//'add'		=> 'Ajouter',
-		//'edit'		=> 'Editer/Effacer',
+		//'edit'		=> '&Eacute;diter/Effacer',
 		'maintain'	=> 'Maintenance',
 		'plugin'	=> 'Plugins',
 		'themes'	=> 'Th&egrave;mes',
@@ -26,7 +26,7 @@
 		'comments'	=> '#Comms',
 		'author'	=> 'Auteur',
 		'actdel'	=> 'Effacer',
-		'actedit'	=> 'Editer',
+		'actedit'	=> '&Eacute;diter',
 		'actenable'	=> 'Activer',
 		'actdisable'=> 'D&eacute;sactiver'
 	);
