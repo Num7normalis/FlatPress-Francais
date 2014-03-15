@@ -10,7 +10,7 @@ $lang['admin']['plugin']['qspam'] = array(
 	'desc1' => 'Ne pas autoriser les commentaires qui contiennent les mots suivants (un par ligne) :',
 	'desc2' => '<strong>Attention:</strong> Un commentaire sera d&eacute;sactiv&eacute; s\'il contient un ou des mots bannis. 
 	
-	(exemple. "old" est pr&eacute;sent dans le mot "b<em>old</em>" &eacute;galement)',
+	(Exemple: "old" est pr&eacute;sent dans le mot "b<em>old</em>" &eacute;galement)',
 	'options' => 'Autres options',
 	'desc3' => 'Compteur de mots bannis',
 	'desc3pre' => 'Commentaires contenant plus de ',

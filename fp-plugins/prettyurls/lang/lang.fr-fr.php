@@ -7,14 +7,30 @@
 	$lang['admin']['plugin']['submenu']['prettyurls'] = 'PrettyURLs Config';
 	$lang['admin']['plugin']['prettyurls'] = array(
 		'head'		=> 'Configuration de PrettyURLs',
-		'description'=>'Ceci est l\'&eacute;diteur qui vous permet de modifier le fichier '.
-						'<code><a class="hint" href="http://wiki.flatpress.org/doc:plugins:prettyurls#htaccess">.htaccess</a></code>.',
+		'htaccess'	=> '.htaccess',
+		'description'=>'Cet &eacute;diteur vous permet de modifier le fichier .htaccess '.
+						'<code><a class="hint" href="http://wiki.flatpress.org/doc:plugins:prettyurls#htaccess" target="_blank">.htaccess</a></code>.',
 		'cantsave'	=> 'Vous ne pouvez pas &eacute;diter ce fichier, parce qu\'il n\'est pas autoris&eacute; en <strong>&eacute;criture</strong>. Vous devez autoriser l\'&eacute;criture du fichier ou copier-coller vers un fichier &agrave; transf&eacute;rer comme <a class="hint" href="http://wiki.flatpress.org/doc:plugins:prettyurls#manual_upload">d&eacute;crit ici</a>',
-		'submit'	=> 'Save'
+		'mode'		=> 'Mode',
+		'auto'		=> 'Automatique',
+			'autodescr'	=> 'PrettyURLs va tenter de trouver la meilleur configuration',
+		'pathinfo'	=> 'Path Info',
+			'pathinfodescr' => 'Exemple: /index.php/2011/01/01/hello-world/',
+		'httpget'	=> 'HTTP Get',
+			'httpgetdescr'=> 'Exemple: /?u=/2011/01/01/hello-world/',
+		'pretty'	=> 'Pretty',
+			'prettydescr'=> 'Exemple: /2011/01/01/hello-world/',
+
+		'saveopt' 	=> 'Sauvegarder',
+
+		'submit'	=> 'Sauvegarder .htaccess'
 	);
 	$lang['admin']['plugin']['prettyurls']['msgs'] = array(
 		1		=> '.htaccess enregistr&eacute;',
 		-1		=> '.htaccess n\'a pas &eacute;t&eacute; enregistr&eacute; (v&eacute;rifiez les permissions de <code>'. BLOG_ROOT .'</code>)?'
+
+		2		=> 'Options sauvegard&eacute;es',
+		-2		=> 'Une erreur est survenue pendant de la sauvegarde',
 	);
 	
 ?>
