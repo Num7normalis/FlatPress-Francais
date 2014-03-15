@@ -102,8 +102,8 @@
 		'logout'	=> 'Vous &ecirc;tes d&eacute;connect&eacute;.',
 		'redirect'	=> 'Vous serez redirig&eacute; dans 5 secondes.',
 		'opt1'		=> 'Retour &agrave; l\'index',
-		'opt2'		=> 'Aller au Panneau de gestion',
-		'opt3'		=> 'Ajouter un nouvel billet'
+		'opt2'		=> 'Aller au panneau de contr&ocirc;le',
+		'opt3'		=> 'Ajouter un nouveau billet'
 	);
 	
 	$lang['login']['error'] = array(
