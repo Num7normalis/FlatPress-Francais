@@ -29,8 +29,7 @@
 		1	=> 'Page enregistr&eacute;e avec succ&egrave;s',
 		-1	=> 'Echec de la sauvegarde de la page',
 		2	=> 'La page a &eacute;t&eacute; effac&eacute;e',
-		-2	=>	 'Echec de la suppression de la page 
-					',
+		-2	=>	 'Echec de la suppression de la page',
 	);
 
 	/* write panel */
