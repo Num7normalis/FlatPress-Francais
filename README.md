@@ -1,3 +1,7 @@
+# Archived
+This repo is now archived. The French translation of FlatPress is now included in the default install package. 
+https://github.com/flatpressblog/flatpress/tree/master/fp-interface/lang/fr-fr
+
 flatpress-francais
 ==================
 ###Traduction française de FlatPress
